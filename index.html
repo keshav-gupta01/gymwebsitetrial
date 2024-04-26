@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhe Krishna Fitness Centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background: url('bg3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .left {
+        border: 3px solid blue;
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+    }
+
+    .right {
+        border: 3px solid green;
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+    }
+
+    .mid {
+        border: 3px solid pink;
+        display: block;
+        width: 40%;
+        margin: 26px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+        position: fixed;
+        background-color: grey;
+        border-radius: 10px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 30px;
+    }
+
+    .navbar li a {
+        color: antiquewhite;
+        text-decoration: none;
+    }
+
+    .navbar li a.active,
+    .navbar li a:hover {
+        color: aqua;
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 60px;
+    }
+
+    
+
+    .btn {
+        font-family: "Jersey 15", sans-serif;
+        padding: 5px 5px;
+        border-radius: 8px;
+        background-color: bisque;
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+    .left{
+        color: bisque;
+    }
+    
+
+
+</style>
+
+<body>
+    
+    <header class="header">
+
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>RK Fitnesss Centre</div>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Help</button><button class="btn">Create Account</button>
+        </div>
+    </header>
+    
+    
+</body>
+
+</html>
